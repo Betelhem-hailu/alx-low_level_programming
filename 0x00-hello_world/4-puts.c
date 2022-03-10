@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 /**
- * main block prints msg
- * return 0(success)
+ * main - block prints msg
+ *
+ * return :always 0 (success)
  */
 int main(void)
 {
