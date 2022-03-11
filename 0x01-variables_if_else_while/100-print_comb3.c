@@ -6,29 +6,28 @@
  */
 int main(void)
 {
-	int x, y;
+	int c;
+	int d = 0;
 
-	for (x = 48; x <= 97; x++)
+	while (d < 10)
 	{
-		for (y = 48; y <= 97; y++)
+		c = 0;
+		while (c < 10)
 		{
-			if (x == y || y <= x)
+			if (d != c && d < c)
 			{
-			}
-			else
-			{
-				putchar(x);
-				putchar(y);
-				if (x == 56 && y == 57)
+				putchar('0' + d);
+				putchar('0' + c);
+				if (c + d != 17)
 				{
+					putchar(',');
+					putchar(' ');
 				}
-				else
-				{
-					putchar(44);
-					putchar(32);
-				}
+
 			}
+			c++;
 		}
+		d++;
 	}
 	putchar('\n');
 	return (0);
