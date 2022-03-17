@@ -23,8 +23,4 @@ while (m < 10)
     putchar('\n');
 }
  }
- int main(void)
-{
-    more_numbers();
-    return (0);
-}
+
