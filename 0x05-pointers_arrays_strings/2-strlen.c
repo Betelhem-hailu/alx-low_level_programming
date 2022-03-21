@@ -4,12 +4,12 @@
  * @s :pointer
  * Return: void.
  */
- int _strlen(char *s)
- {
-int i, counter = 0;
-for (i = s[0]; i != '\0'; i++)
+int _strlen(char *s)
+{
+int i = s[0], counter = 0;
+while (i != '\0')
 {
 counter++;
 }
 return (counter);
- }
+}
