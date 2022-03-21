@@ -4,13 +4,11 @@
  * @s :pointer
  * Return: void.
  */
- int _strlen(char *s)
+int _strlen(char *s)
 {
-char i = *s, counter = 0;
-while (i != '\0')
-{
-counter++;
-i++;
-}
-return (counter);
+	int i = 0;
+
+	while (*(s + i))
+		i++;
+	return (i);
 }
