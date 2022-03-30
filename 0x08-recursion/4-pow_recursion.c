@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * _pow_recursion - Search a string for any of a set of bytes.
  * @x: base
@@ -21,3 +20,4 @@ else if (y == 0)
 return (x * _pow_recursion(x, y - 1));
 
 }
+

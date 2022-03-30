@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * factorial - finds factorial
  * @n: int
@@ -21,3 +20,4 @@ else if (n == 0)
 return (n * factorial(n - 1));
 
 }
+

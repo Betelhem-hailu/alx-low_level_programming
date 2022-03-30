@@ -1,13 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * is_prime_number - check if n is a prime number
- * @resp:int
  * @n: int
  * Return: 0 or 1
  */
 
-int check_prime(int n, int resp);
+
 int is_prime_number(int n)
 {
 return (check_prime(n, 2));
@@ -30,3 +29,4 @@ else if (n % resp == 0 || n <= 1)
 else
 	return (check_prime(n, resp + 1));
 }
+
